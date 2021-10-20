@@ -3,6 +3,7 @@ all:	chan-docs plaxrun-report-plugins
 
 plaxrun-report-plugins:
 	cd cmd/plaxrun/plugins/report; make
+	cd cmd/plaxrun/plugins/octane; make
 
 install: all
 
